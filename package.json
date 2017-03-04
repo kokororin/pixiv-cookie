@@ -1,0 +1,38 @@
+{
+  "name": "pixiv-cookie",
+  "version": "0.1.1",
+  "description": "Promise-based pixiv cookie getter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/pixiv-cookie.git"
+  },
+  "keywords": [
+    "pixiv",
+    "pixiv-auth",
+    "auth",
+    "cookie",
+    "pixiv-client"
+  ],
+  "author": "kokororin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokororin/pixiv-cookie/issues"
+  },
+  "homepage": "https://github.com/kokororin/pixiv-cookie#readme",
+  "dependencies": {
+    "got": "^6.7.1",
+    "set-cookie-parser": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-plugin-node": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
