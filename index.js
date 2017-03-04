@@ -23,6 +23,7 @@ const pixivCookie = ({ username, password }) => {
                         cookies: setCookieParser(headers['set-cookie'])
                     };
                 }
+                reject(new Error('Cannot find token on page'));
             }).catch((error) => {
                 reject(error);
             });
